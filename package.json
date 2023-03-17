@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cross-env NODE_ENV=test mocha --timeout 10000",
+    "test": "cross-env NODE_ENV=test mocha --timeout 10000 --exit",
     "coverage": "nyc --reporter=html npm run test"
   },
   "keywords": [],
